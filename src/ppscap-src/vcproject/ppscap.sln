@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ppscap_cli", "..\ppscap\ppscap_cli.vcxproj", "{52F0BDA5-6B8E-4D1C-9C64-85463CB52B28}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ppscap_gui", "..\ppscap\ppscap_gui.vcxproj", "{770BDD12-7FAB-40A5-8D19-EB4F751F2C38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52F0BDA5-6B8E-4D1C-9C64-85463CB52B28}.Debug|Win32.ActiveCfg = Debug|Win32
+		{52F0BDA5-6B8E-4D1C-9C64-85463CB52B28}.Debug|Win32.Build.0 = Debug|Win32
+		{52F0BDA5-6B8E-4D1C-9C64-85463CB52B28}.Release|Win32.ActiveCfg = Release|Win32
+		{52F0BDA5-6B8E-4D1C-9C64-85463CB52B28}.Release|Win32.Build.0 = Release|Win32
+		{770BDD12-7FAB-40A5-8D19-EB4F751F2C38}.Debug|Win32.ActiveCfg = Debug|Win32
+		{770BDD12-7FAB-40A5-8D19-EB4F751F2C38}.Debug|Win32.Build.0 = Debug|Win32
+		{770BDD12-7FAB-40A5-8D19-EB4F751F2C38}.Release|Win32.ActiveCfg = Release|Win32
+		{770BDD12-7FAB-40A5-8D19-EB4F751F2C38}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

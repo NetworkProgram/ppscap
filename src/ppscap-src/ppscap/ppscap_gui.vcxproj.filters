@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1ba69fe2-7bc7-43d3-9cc3-199b3a5b0972}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\WDL">
+      <UniqueIdentifier>{071a08b4-7fb7-4dc9-bd38-5a80b2488b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WDL\lice">
+      <UniqueIdentifier>{1589b0cc-71ae-4789-b414-763d9db37c1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WDL\lice\giflib">
+      <UniqueIdentifier>{57c274d2-2cbb-4f94-9392-3fcf5c4f8564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WDL\lice\zlib">
+      <UniqueIdentifier>{42b6b98f-180d-442d-ac51-3b35ca6787a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{673993a9-1111-4739-87e8-c23691bdbead}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{089437ec-9b79-46b0-8741-7357434f4ce2}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\WDL\giflib\dgif_lib.c">
+      <Filter>Source Files\WDL\lice\giflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WDL\giflib\egif_lib.c">
+      <Filter>Source Files\WDL\lice\giflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WDL\giflib\gif_hash.c">
+      <Filter>Source Files\WDL\lice\giflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WDL\giflib\gifalloc.c">
+      <Filter>Source Files\WDL\lice\giflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WDL\lice\lice_gif.cpp">
+      <Filter>Source Files\WDL\lice\giflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WDL\zlib\adler32.c">
+      <Filter>Source Files\WDL\lice\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WDL\zlib\compress.c">
+      <Filter>Source Files\WDL\lice\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WDL\zlib\crc32.c">
+      <Filter>Source Files\WDL\lice\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WDL\zlib\deflate.c">
+      <Filter>Source Files\WDL\lice\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WDL\zlib\infback.c">
+      <Filter>Source Files\WDL\lice\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WDL\zlib\inffast.c">
+      <Filter>Source Files\WDL\lice\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WDL\zlib\inflate.c">
+      <Filter>Source Files\WDL\lice\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WDL\zlib\inftrees.c">
+      <Filter>Source Files\WDL\lice\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WDL\zlib\trees.c">
+      <Filter>Source Files\WDL\lice\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WDL\zlib\uncompr.c">
+      <Filter>Source Files\WDL\lice\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WDL\zlib\zutil.c">
+      <Filter>Source Files\WDL\lice\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WDL\lice\lice.cpp">
+      <Filter>Source Files\WDL\lice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WDL\lice\lice_arc.cpp">
+      <Filter>Source Files\WDL\lice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WDL\lice\lice_gif_write.cpp">
+      <Filter>Source Files\WDL\lice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WDL\lice\lice_line.cpp">
+      <Filter>Source Files\WDL\lice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WDL\lice\lice_palette.cpp">
+      <Filter>Source Files\WDL\lice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WDL\lice\lice_text.cpp">
+      <Filter>Source Files\WDL\lice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WDL\filebrowse.cpp">
+      <Filter>Source Files\WDL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WDL\win32_utf8.c">
+      <Filter>Source Files\WDL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WDL\wingui\wndsize.cpp">
+      <Filter>Source Files\WDL</Filter>
+    </ClCompile>
+    <ClCompile Include="ppscap_ui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WDL\lice\lice_pcf.cpp">
+      <Filter>Source Files\WDL\lice</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\WDL\zlib\crc32.h">
+      <Filter>Source Files\WDL\lice\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WDL\zlib\deflate.h">
+      <Filter>Source Files\WDL\lice\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WDL\zlib\inffast.h">
+      <Filter>Source Files\WDL\lice\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WDL\zlib\inffixed.h">
+      <Filter>Source Files\WDL\lice\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WDL\zlib\inflate.h">
+      <Filter>Source Files\WDL\lice\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WDL\zlib\inftrees.h">
+      <Filter>Source Files\WDL\lice\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WDL\zlib\trees.h">
+      <Filter>Source Files\WDL\lice\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ppscap_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WDL\lice\lice_pcf.h">
+      <Filter>Source Files\WDL\lice</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ppscap.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ppscap.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
